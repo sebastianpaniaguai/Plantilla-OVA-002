@@ -1,0 +1,13 @@
+.pit-activities-memory { position: relative; border: 1px solid #445B26; padding: 5px; border-radius: 15px; }
+.pit-activities-memory ol .ui-selecting { background: #445B26; }
+.pit-activities-memory ol .ui-selected { background: #445B26; color: white; }
+.pit-activities-memory ol { list-style-type: none; margin: 0; padding: 0; width: 450px;  }
+.pit-activities-memory ol li { margin: 3px; padding: 1px; float: left; width: 100px; height: 80px; font-size: 4em; text-align: center; border: 1px solid #9A9595; cursor: pointer; }
+.pit-activities-memory ol li.memory-game-matched { cursor: auto; }
+.pit-activities-memory .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; background-color: rgba(239, 239, 239, 0.5); opacity: 0.1; }
+.pit-activities-memory .box_score { position: absolute; bottom: 30px; right: 4px; border: 1px solid #445B26; padding: 10px; border-radius: 6px; }
+
+@media screen and (max-width: 512px) {
+    .pit-activities-memory ol { width: 100% }
+    .pit-activities-memory .box_score { position: initial; margin: 20px; }
+}
